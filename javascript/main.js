@@ -20,3 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+const menuIcon = document.getElementById('menu-icon');
+const sidebar = document.getElementById('content-sidebar');
+
+menuIcon.addEventListener('click', function () {
+    sidebar.classList.toggle('active');
+    menuIcon.classList.toggle('active');
+});

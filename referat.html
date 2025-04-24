@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Pixel Perfect Дизайн</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
     <header class="container">
-        <h1 class="text-center mt-4">Pixel Perfect Дизайн</h1>
+        <h1 class="text-center mt-4">Дизайн на сайт - подход с точност до пиксел (pixel perfect)</h1>
         <p class="text-center">Реферат по Web Технологии</p>
         <div class="text-end">
             <button onclick="toggleTheme()" class="btn btn-secondary">Смени тема</button>
         </div>
-        
-    </header>
 
-    <main class="container mt-5">
-
-        <nav id="sidebar">
-            <h3>Съдържание</h3>
+        <div id="menu-icon" class="menu-icon">
+            <span>&#9776;</span> 
+        </div>
+    
+        <nav id="content-sidebar" class="sidebar">
             <ul>
                 <li><a href="#intro">1. Увод</a></li>
                 <li><a href="#definition">2. Какво е Pixel Perfect?</a></li>
@@ -31,7 +30,11 @@
                 <li><a href="#references">7. Използвана литература</a></li>
             </ul>
         </nav>
-    
+        
+    </header>
+
+    <main class="container mt-5">
+
         <section id="intro">
             
             <h2>1. Увод</h2>
