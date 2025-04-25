@@ -17,6 +17,11 @@ body {
     padding: 20px;
 }
 
+figcaption {
+    font-family: 'Roboto', sans-serif, italic;
+    font-size: 16px;
+}
+
 h1, h2, h3 {
     color: #d84b8d;
     font-weight: 600;
