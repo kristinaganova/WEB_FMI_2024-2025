@@ -1,7 +1,6 @@
 function toggleTheme() {
-    document.body.classList.toggle('dark-mode');
-    const current = localStorage.getItem('theme');
-    localStorage.setItem('theme', current === 'dark' ? 'light' : 'dark');
+    const isDark = document.body.classList.toggle('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
 }
 
 document.addEventListener('DOMContentLoaded', () => {

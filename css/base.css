@@ -1,0 +1,35 @@
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fcf4f6;
+    color: #5e3b5e;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+ul, ol {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #d84b8d;
+    font-weight: 600;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; margin-top: 40px; }
+h3 { font-size: 22px; margin-top: 30px; }
+
+figcaption {
+    font-family: 'Roboto', sans-serif, italic;
+    font-size: 16px;
+}

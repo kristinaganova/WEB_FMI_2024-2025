@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ffb6c1;
+    padding: 12px;
+    text-align: left;
+}
+
+pre {
+    background-color: #fce4ec;
+    padding: 16px;
+    overflow-x: auto;
+    border-left: 4px solid #ff4081;
+}
+
+code {
+    font-family: Consolas, monospace;
+    padding: 2px 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e60073;
+}

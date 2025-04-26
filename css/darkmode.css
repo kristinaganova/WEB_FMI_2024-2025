@@ -1,0 +1,47 @@
+body.dark-mode {
+    background-color: #2e2b2b;
+    color: #f5e0e6;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #ff66b2;
+}
+
+body.dark-mode pre {
+    background-color: #3b3b3b;
+    border-left-color: #ff4081;
+}
+
+body.dark-mode blockquote {
+    border-left-color: #888;
+    color: #ccc;
+}
+
+body.dark-mode table th,
+body.dark-mode table td {
+    border-color: #555;
+}
+
+body.dark-mode a {
+    color: #ff66b2;
+}
+
+body.dark-mode code {
+    background-color: #3b3b3b;
+    color: white;
+}
+
+body.dark-mode #content-sidebar {
+    background-color: #3b3b3b;
+    color: #f5e0e6;
+}
+
+body.dark-mode #content-sidebar a {
+    color: #f5e0e6;
+}
+
+body.dark-mode #content-sidebar a:hover {
+    color: #ff66b2;
+}
