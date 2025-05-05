@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="register-header">
+    <h1>Регистрация</h1>
+  </div>
+
+  <form id="registration-form">
+    <label for="username">Потребителско име:</label>
+    <input type="text" id="username" required>
+    <div id="username-error" class="error"></div>
+
+    <label for="name">Име:</label>
+    <input type="text" id="name" required>
+    <div id="name-error" class="error"></div>
+
+    <label for="family-name">Фамилия:</label>
+    <input type="text" id="family-name" required>
+    <div id="family-name-error" class="error"></div>
+
+    <label for="email">Имейл:</label>
+    <input type="email" id="email" required>
+    <div id="email-error" class="error"></div>
+
+    <label for="password">Парола:</label>
+    <input type="password" id="password" required>
+    <div id="password-error" class="error"></div>
+
+    <h3>Адрес (опционално)</h3>
+
+    <label for="street">Улица:</label>
+    <input type="text" id="street">
+
+    <label for="city">Град:</label>
+    <input type="text" id="city">
+
+    <label for="postal-code">Пощенски код:</label>
+    <input type="text" id="postal-code">
+    <div id="postal-code-error" class="error"></div>
+
+    <button type="submit" id="register-btn">Регистрация</button>
+  </form>
+
+  <div id="success"></div>
+
+  <script src="registration.js"></script>
+</body>
+</html>
